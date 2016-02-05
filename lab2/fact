@@ -1,0 +1,13 @@
+echo "enter the number to find the factorial"
+read n
+i=1
+p=1
+
+while [ $i -le $n ]
+do
+p=`expr $i \* $p`
+i=`expr $i + 1`
+done
+
+echo $p
+
